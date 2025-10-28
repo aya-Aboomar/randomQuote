@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  
+  height: 100vh;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #0a0909;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: Impact;
+}
+
+p {
+  color: #222;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 20px;
+
+}
+
+#btn {
+  background-color: blue;
+  color: white;
+  border: 5 rgb(33, 33, 33);
+  padding: 25px 80px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+  background-color: green;
+}
+
+#output {
+  padding: 20px;
+  margin-top: 25px;
+  margin: auto;
+  color: #222;
+  font-weight: 500;
+  font-size: 2rem;
+  font-size: 2rem;
+  width: 70%;
+  max-width: 800px;
+}
